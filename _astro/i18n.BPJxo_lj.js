@@ -1,0 +1,1 @@
+var e={get(e){try{return localStorage.getItem(e)}catch{return null}},set(e,t){try{localStorage.setItem(e,t)}catch{}}},t=document.documentElement.lang===`ar`?`ar`:`en`;function n(e){return e&&typeof e==`object`?e[t]??e.en:e}export{n,e as t};
